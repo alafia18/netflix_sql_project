@@ -140,8 +140,8 @@ GROUP BY 1;
 ```
 - **Objective:** Count the number of content items in each genre.
   
-  return top 5 year with highest avg content release!
 ### 10.Find each year and the average numbers of content release in India on netflix.
+       return top 5 year with highest avg content release!
 ```sql
 SELECT 
     country,
@@ -215,7 +215,6 @@ GROUP BY category;
 - Common Ratings: Insights into the most common ratings provide an understanding of the content's target audience.
 - Geographical Insights: The top countries and the average content releases by India highlight regional content distribution.
 - Content Categorization: Categorizing content based on specific keywords helps in understanding the nature of content available on Netflix.
-
 
 This analysis provides a comprehensive view of Netflix's content and can help inform content strategy and decision-making.
 
