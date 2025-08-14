@@ -15,7 +15,7 @@ This project involves a comprehensive analysis of Netflix's movies and TV shows 
 - **Dataset Link:** [Movies Dataset](https://www.kaggle.com/code/shivamb/netflix-shows-and-movies-exploratory-analysis)
 
 ## Schema
-'''sql
+```sql
 DROP TABLE IF EXISTS netflix;
 CREATE TABLE netflix
 (
@@ -35,7 +35,7 @@ CREATE TABLE netflix
 
 ## Business Problems and Solutions
 ### 1. Count the Number of Movies vs TV Shows
-'''sql
+```sql
 SELECT 
     type,
     COUNT(*)
